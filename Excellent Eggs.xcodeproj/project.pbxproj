@@ -13,6 +13,7 @@
 		1820AF272987AC6200B1C089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820AF252987AC6200B1C089 /* Main.storyboard */; };
 		1820AF292987AC6300B1C089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1820AF282987AC6300B1C089 /* Assets.xcassets */; };
 		1820AF2C2987AC6300B1C089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820AF2A2987AC6300B1C089 /* LaunchScreen.storyboard */; };
+		18A8439C298ABB6900E880F4 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18A8439B298ABB6900E880F4 /* ding.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1820AF282987AC6300B1C089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1820AF2B2987AC6300B1C089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1820AF2D2987AC6300B1C089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A8439B298ABB6900E880F4 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1820AF282987AC6300B1C089 /* Assets.xcassets */,
 				1820AF2A2987AC6300B1C089 /* LaunchScreen.storyboard */,
 				1820AF2D2987AC6300B1C089 /* Info.plist */,
+				18A8439B298ABB6900E880F4 /* ding.mp3 */,
 			);
 			path = "Excellent Eggs";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A8439C298ABB6900E880F4 /* ding.mp3 in Resources */,
 				1820AF2C2987AC6300B1C089 /* LaunchScreen.storyboard in Resources */,
 				1820AF292987AC6300B1C089 /* Assets.xcassets in Resources */,
 				1820AF272987AC6200B1C089 /* Main.storyboard in Resources */,
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.babichev.Excellent-Eggs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.babichev.Excellent-Eggs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
